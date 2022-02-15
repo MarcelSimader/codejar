@@ -102,7 +102,7 @@ export function CodeJar(editor: HTMLElement, highlight: (e: HTMLElement, pos?: P
       }
     }
 
-    if (isLegacy) restore(save())
+    // if (isLegacy) restore(save())
   })
 
   on('keyup', event => {
