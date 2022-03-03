@@ -49,10 +49,6 @@ export function CodeJar(editor: HTMLElement, highlight: (e: HTMLElement, pos?: P
 
   editor.setAttribute('contenteditable', 'plaintext-only')
   editor.setAttribute('spellcheck', options.spellcheck ? 'true' : 'false')
-  editor.style.outline = 'none'
-  editor.style.overflowWrap = 'break-word'
-  editor.style.overflowY = 'auto'
-  editor.style.whiteSpace = 'pre-wrap'
 
   let isLegacy = false // true if plaintext-only is not supported
 
